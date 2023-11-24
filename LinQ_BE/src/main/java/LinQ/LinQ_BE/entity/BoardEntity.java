@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 @Data
@@ -26,6 +27,6 @@ public class BoardEntity {
     private String boardWriterNickname;
     private String boardWriteDate;
     private int boardClickCount;
-    private int boardLikeCount;
+    private int boardLikesCount;
     private int boardCommentCount;
 }
